@@ -10,9 +10,9 @@
                 <div class="card-body">
                     <form method="POST" action="{{ route('login') }}">
                         @csrf
-
+                        <h6 class="text-danger">Ingresa correo=prueba@gmail.com contraseña=prueba@gmail.com</h6>
                         <div class="form-group row">
-                            <h1>Ingresa correo=prueba@gmail.com contraseña=prueba@gmail.com</h1>
+                            
                             
                             <label for="email" class="col-md-4 col-form-label text-md-right">{{ __('E-Mail Address') }}</label>
 
