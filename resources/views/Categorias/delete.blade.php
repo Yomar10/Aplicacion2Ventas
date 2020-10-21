@@ -1,7 +1,7 @@
 @extends('plan_adminlte.layout')
 @section('contenido')
 <section class="content">
-    <form action="{{route('cliente.destroy',['id'=>$cliente->id])}}" method="POST">
+  <form action="{{route('categoria.destroy',['id'=>$categoria->id])}}" method="POST">
         @csrf
         @method('delete')
         <div class="card card-danger">
@@ -10,10 +10,11 @@
             </div>
             <div class="card-body">
               <div class="row">
-                <p>Desea eliminar {{$cliente->nombre}}</p>
+                <p>Desea eliminar {{$categoria->nombre}}</p>
               </div>
-              <button class="btn btn-danger">Eliminar</button>
-              <a href="{{route('cliente.index')}}" class="btn btn-primary">Cancelar</a>
+              <button type="submit" class="btn btn-danger">Eliminar</button>
+              <a href="{{route('categoria.index')}}" class="btn btn-primary">Cancelar</a>
+              
             </div>
             <!-- /.card-body -->
           </div>
