@@ -41,3 +41,13 @@ Route::get('/categorias/edit/{id}','CategoriaController@edit')->name('categoria.
 Route::put('/categorias/update/{id}','CategoriaController@update')->name('categoria.update');
 Route::get('/categorias/delete/{id}','CategoriaController@delete')->name('categoria.delete');
 Route::delete('/categorias/destroy/{id}','CategoriaController@destroy')->name('categoria.destroy');
+
+//PRODUCTOS
+
+Route::get('/producto','ProductoController@index')->name('producto.index');
+Route::get('/producto/create','ProductoController@create')->name('producto.create');
+Route::post('/producto/store','ProductoController@store')->name('producto.store');
+Route::get('/producto/edit/{id}','ProductoController@edit')->name('producto.edit');
+Route::put('/producto/update/{id}','ProductoController@update')->name('producto.update');
+Route::get('/producto/delete/{id}','ProductoController@delete')->name('producto.delete');
+Route::delete('/producto/destroy/{id}','ProductoController@destroy')->name('producto.destroy');

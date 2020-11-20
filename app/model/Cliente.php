@@ -1,7 +1,7 @@
 <?php
 
 namespace App\model;
-
+use App\Model\Producto;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 

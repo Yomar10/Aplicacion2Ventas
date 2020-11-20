@@ -19,7 +19,7 @@
         
       </li>
       <li class="nav-item has-treeview menu-open">
-        <a href="#" class="nav-link active">
+        <a href="{{route('producto.index')}}" class="nav-link active">
           <i class="nav-icon fas fa-shopping-bag"></i>
           <p>
             Producto
