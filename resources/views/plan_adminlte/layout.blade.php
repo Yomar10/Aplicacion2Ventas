@@ -20,7 +20,7 @@
   <!-- Navbar -->
   @include('plan_adminlte/nav')
     <aside class="main-sidebar sidebar-dark-primary elevation-4">
-    <a href="index3.html" class="brand-link">
+    <a href="{{route('inicio.index')}}" class="brand-link">
       <span class="brand-text font-weight-light">KoRn</span>
     </a>
 

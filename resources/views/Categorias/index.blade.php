@@ -37,7 +37,8 @@
                     <td>{{$c->descripcion}}</td>
                     <td>
                         <a href="{{route('categoria.edit',['id'=>$c->id])}}"><i class="fas fa-pencil-alt"></i></a>
-                        <td><a href="{{route('categoria.delete',['id'=>$c->id])}}"><i class="fas fa-trash-alt text-danger"></i></a></td>
+                        {{-- <td><a href="{{route('categoria.delete',['id'=>$c->id])}}"><i class="fas fa-trash-alt text-danger"></i></a></td> --}}
+                        <td><a href="{{route($c->ruta($c->id),['id'=>$c->id])}}"><i class="fas fa-trash-alt text-danger"></i></a></td>
                     </td>
                 </tr>          
                 @endforeach

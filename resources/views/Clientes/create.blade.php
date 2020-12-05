@@ -15,19 +15,19 @@
                 <div class="card-body">
                   <div class="form-group">
                     <label for="exampleInputEmail1">Nombre</label>
-                    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Ingrese Nombre" name="nombre">
+                    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Ingrese Nombre" name="nombre" required>
                   </div>
                   <div class="form-group">
                     <label for="exampleInputEmail1">Dirección</label>
-                    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Ingrese Dirección" name="direccion">
+                    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Ingrese Dirección" name="direccion" required>
                   </div>
                   <div class="form-group">
                     <label for="exampleInputEmail1">D.N.I</label>
-                    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Ingrese D.N.I" name="dni">
+                    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Ingrese D.N.I" name="dni" required>
                   </div>
                   <div class="form-group">
                     <label for="exampleInputEmail1">Telefono</label>
-                    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Ingrese Teléfono" name="telefono">
+                    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Ingrese Teléfono" name="telefono" required>
                   </div>
                 <div class="card-footer">
                   <button type="submit" class="btn btn-primary">Submit</button>

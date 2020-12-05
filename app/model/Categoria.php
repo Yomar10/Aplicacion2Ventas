@@ -13,4 +13,16 @@ class Categoria extends Model
     public function producto(){
         return $this->hasmany(Producto::class);
     }
+    // PROBANDOOOOOOO
+    public function ruta($id_cat){
+        $pr_ca = Producto::where('categoria_id',$id_cat)
+                        ->whereNotNull('created_at')->first();
+        if($pr_ca === null){
+            // elimina
+            return 'categoria.delete';
+        }else{
+            // no puede eliminar
+            return 'categoria.error';
+        }
+    }
 }

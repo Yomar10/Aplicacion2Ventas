@@ -18,15 +18,15 @@
                 <div class="card-body">
                   <div class="form-group">
                     <label for="exampleInputEmail1">Nombre</label>
-                  <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Ingrese Nombre" name="nombre" value="{{$producto->nombre}}">
+                  <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Ingrese Nombre" name="nombre" value="{{$producto->nombre}}" required>
                   </div>
                   <div class="form-group">
                     <label for="exampleInputEmail1">Precio</label>
-                    <input type="number" class="form-control" id="exampleInputEmail1" placeholder="Ingrese Precio" name="precio" value="{{$producto->precio}}">
+                    <input type="number" class="form-control" id="exampleInputEmail1" placeholder="Ingrese Precio" name="precio" value="{{$producto->precio}}" required>
                   </div>
                   <div class="form-group">
                     <label for="exampleInputEmail1">Stock</label>
-                    <input type="number" class="form-control" id="exampleInputEmail1" placeholder="Ingrese Stock" name="stock" value="{{$producto->stock}}">
+                    <input type="number" class="form-control" id="exampleInputEmail1" placeholder="Ingrese Stock" name="stock" value="{{$producto->stock}}" required>
                   </div>
                   <div class="form-group">
                     <label for="exampleInputEmail1">Categoria</label>

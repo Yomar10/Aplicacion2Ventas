@@ -40,6 +40,8 @@ Route::post('/categorias/store','CategoriaController@store')->name('categoria.st
 Route::get('/categorias/edit/{id}','CategoriaController@edit')->name('categoria.edit');
 Route::put('/categorias/update/{id}','CategoriaController@update')->name('categoria.update');
 Route::get('/categorias/delete/{id}','CategoriaController@delete')->name('categoria.delete');
+// probando
+Route::get('/categorias/error/{id}','CategoriaController@error')->name('categoria.error');
 Route::delete('/categorias/destroy/{id}','CategoriaController@destroy')->name('categoria.destroy');
 
 //PRODUCTOS

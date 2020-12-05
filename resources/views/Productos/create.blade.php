@@ -15,15 +15,15 @@
                 <div class="card-body">
                   <div class="form-group">
                     <label for="exampleInputEmail1">Nombre</label>
-                    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Ingrese Nombre" name="nombre">
+                    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Ingrese Nombre" name="nombre" required>
                   </div>
                   <div class="form-group">
                     <label for="exampleInputEmail1">Precio</label>
-                    <input type="number" class="form-control" id="exampleInputEmail1" placeholder="Ingrese Precio" name="precio">
+                    <input type="number" class="form-control" id="exampleInputEmail1" placeholder="Ingrese Precio" name="precio" required>
                   </div>
                   <div class="form-group">
                     <label for="exampleInputEmail1">Stock</label>
-                    <input type="number" class="form-control" id="exampleInputEmail1" placeholder="Ingrese Stock" name="stock">
+                    <input type="number" class="form-control" id="exampleInputEmail1" placeholder="Ingrese Stock" name="stock" required>
                   </div>
                   <div class="form-group">
                     <label for="exampleInputEmail1">Categoria</label>

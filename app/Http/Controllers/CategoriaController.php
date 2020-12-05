@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 
 use App\model\Categoria;
+use App\model\Producto;
 
 class CategoriaController extends Controller
 {
@@ -98,7 +99,13 @@ class CategoriaController extends Controller
     public function delete($id,request $request){
         $categoria = Categoria::find($id);
         return view('Categorias.delete',[
-            'categoria'=>$categoria
+           'categoria'=>$categoria
+        ]);
+    }
+    public function error($id,request $request){
+        $categoria = Categoria::find($id);
+        return view('Categorias.error',[
+           'categoria'=>$categoria
         ]);
     }
     public function destroy($id)
